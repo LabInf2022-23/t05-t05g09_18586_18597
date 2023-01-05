@@ -87,4 +87,35 @@ No contexto do problema, apresente uma interpretação para o conjunto obtido.
  \end{center}
 \textbf{V} = {1,2,3,4,5,6,7,8,9} \\
 E = \\ (1,2),(1,4),(1,5),(1,6),(1,7),(1,8),(1,9),(2,1),(2,3),(2,4),(2,5),(2,8),(2,9),(3,2),\\(3,4),(3,5),(3,9),(4,1),(4,2),(4,3),(4,5),(4,9),(5,1),(5,2),(5,3),(5,4),(5,9),(6,1),\\(6,9),(7,1),(7,9),(8,1),(8,2),(8,9),(9,1),(9,2),(9,3),(9,4),(9,5),(9,6),(9,7),(9,8); 
+
+
+\subsection{Questão 2} 
+\textbf{Indique, justificando, se o grafo é conexo.} \cite{antero_2007}\\ 
+
+O Grafo G só é conexo se existir uma cadeia que une quaisquer dois vértices, escolhidos ao acaso. Sendo assim, verifica-se que o Grafo G é conexo, pois, exemplificando, pode criar-se a cadeia \textbf{U = {3,2,1,7}}, partindo do vértice \textit{\textbf{Porto (v3)}}, de modo a chegar a \textit{\textbf{Sófia (v7)}}. Seguindo essa cadeia, inicia-se a partida através do \textbf{Porto}, com paragem em \textbf{Varsóvia}, seguido de \textbf{Madrid} e, por fim, com destino a \textbf{Sófia}.
+
+
+\subsection{Questão 3}
+\textbf{Indique, justificando, se o grafo é euleriano.} \\
+
+Para um grafo ser euleriano, é necessário existir um ciclo euleriano. E, para isso, é necessária uma cadeia euleriana fechada, onde todas as arestas do grafo devem ser percorridas, sem serem repetidas. Deste modo, aplicam-se \underline{os dois teoremas} de \textbf{Euler} para perceber se há verificação deste ciclo no grafo acima exposto. \\
+\\ Assim sendo: \\
+\\
+Pelo Teorema Euler (1): \\ 
+\begin{itemize}
+\item  Grafo G é conexo, verificado no ex.2.\\
+\end{itemize}
+É possível uma cadeia Euleriana?
+deg(1)=7, deg(2)=6, deg(3)=4, deg(4)=5, deg(5)=5, deg(6)=2, deg(7)=2, deg(8)=3, deg(9)=8.\\
+\\Não é possível uma cadeia Euleriana, pois possui mais de dois vértices de grau ímpar.\\
+\\
+Pelo, Teorema Euler (2):\\
+\begin{itemize}
+\item Grafo G é conexo, verificado no ex.2.\\
+\end{itemize}
+É possível um ciclo Euleriano?
+\begin{itemize}
+\item Não é possível um ciclo Euleriano, pois nem todos os vértices têm grau par.
+\end{itemize}
+\textbf{Conclusão}: \underline {Como verificado pelos teoremas, o grafo não é Euleriano.}
 \end{document}
