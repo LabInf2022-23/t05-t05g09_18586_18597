@@ -20,6 +20,7 @@ para que toda a estrutura entrasse de acordo com o que queríamos e o que era pr
 editavámos o projeto no Overleaf, descarregavámos e fazíamos upload com a versão atual na pasta main de cada computador.
 
 4. Descrição do Projeto
+
 4.1. Principais comandos utilizados.
 
 Para a utilização do github, optamos por utilizar o git bash pelo SO Windows 11. Abaixo segue-se os principais comandos utilizados para a realização da transferências
